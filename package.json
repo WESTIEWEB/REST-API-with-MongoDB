@@ -1,0 +1,42 @@
+{
+  "name": "sq012-week-9-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./dist/app.js",
+    "start": "nodemon -L -e ts --exec \"yarn build && yarn start\"",
+    "compile": "tsc -w"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.14",
+    "cloudinary": "^1.32.0",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemailer": "^6.8.0",
+    "twilio": "^3.83.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/http-errors": "^2.0.1",
+    "@types/joi": "^17.2.3",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/lodash": "^4.14.191",
+    "@types/morgan": "^1.9.3",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^18.11.10",
+    "@types/nodemailer": "^6.4.6",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "http-errors": "^2.0.0",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  }
+}
